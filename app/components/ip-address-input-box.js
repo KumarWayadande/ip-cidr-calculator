@@ -2,7 +2,7 @@ import React from "react";
 
 function IpAddressInputBox() {
   return (
-    <div className="container flex-wrap main-board gap-y-4 flex flex-row justify-center align-baseline border-2 border-stone-100 rounded-2xl py-8 px-10 my-12 mb-12 items-center">
+    <div>
       <input
         type="text"
         className="w-20 h-20 text-3xl py-2 text-center mx-2 text-black rounded-2xl bg-[#c084fc]"
