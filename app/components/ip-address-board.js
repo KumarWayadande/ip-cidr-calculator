@@ -1,6 +1,7 @@
 import IpAddressRow from "./ip-address-row";
 
-function IPAddressBoard() {
+function IPAddressBoard(props) {
+  const {ip} = props;
   return (
     <div className="ip-address-board-container my-5">
       <div className="octets-container gap-x-2 gap-y-2 items-center justify-center flex flex-wrap md:flex-row">
